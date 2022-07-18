@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&family=Open+Sans&family=Space+Mono:ital@0;1&display=swap');
+
+:root {
+    --font-heading: "Nunito", "Courier New";
+    --font-text: "Open Sans", sans-serif;
+    --font-accent: "Space Mono", monospace;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-text);
+}
+
+i {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+}
+
+li, a {
+    font-family: var(--font-accent);
+}
