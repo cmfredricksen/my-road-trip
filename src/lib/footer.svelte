@@ -54,6 +54,13 @@
 </footer>
 
 <style>
+    footer {
+        padding: 2rem 0;
+        text-align: center;
+    }
+    .container {
+        margin: 1rem auto;
+    }
     i {
         font-size: 2rem;
     }
